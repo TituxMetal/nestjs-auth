@@ -4266,15 +4266,15 @@ p-try@^2.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
-pactum-matchers@1.1.2, pactum-matchers@^1.1.1:
+pactum-matchers@1.1.2, pactum-matchers@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/pactum-matchers/-/pactum-matchers-1.1.2.tgz#222a52764969d973ed896b4c38c6f5c650c4d5b9"
   integrity sha512-bLfzN/5++cV5MFesdLJ5rEwUFfywxZHcNjcgVAwrAzOn/8PkM/Tzg4QHWIlk5ngG+YYmqihqWLqPzRDUZCylmA==
 
-pactum@3.1.12:
-  version "3.1.12"
-  resolved "https://registry.yarnpkg.com/pactum/-/pactum-3.1.12.tgz#5abedab93df3bbcec52a9d03ba6f4042d1b0eda1"
-  integrity sha512-sMdVUSrkQ2/T5V4Si/V6Asgu9Ub/x4uS/iK6EgfXTPCDXduItrjztuHvGv3kBMgJ5q/lY0DeirLDEJs3+abtsQ==
+pactum@3.1.13:
+  version "3.1.13"
+  resolved "https://registry.yarnpkg.com/pactum/-/pactum-3.1.13.tgz#33f9ead4d04edaa9187beaa191253db4638df428"
+  integrity sha512-PzwWaFOj4uAKc1UVGQ2O86DurYoJISTajhuKpHRkg8BQ2OJQ8eUHtbTfw7NXfiSs7WKO6yOABbfGJ+IzrZJm1Q==
   dependencies:
     "@exodus/schemasafe" "^1.0.0-rc.7"
     deep-override "^1.0.2"
@@ -4283,7 +4283,7 @@ pactum@3.1.12:
     klona "^2.0.5"
     lightcookie "^1.0.25"
     openapi-fuzzer-core "^1.0.6"
-    pactum-matchers "^1.1.1"
+    pactum-matchers "^1.1.2"
     parse-graphql "^1.0.0"
     phin "^3.6.0"
     polka "^0.5.2"
