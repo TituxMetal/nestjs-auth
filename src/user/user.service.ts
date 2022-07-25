@@ -1,16 +1,18 @@
 import { ForbiddenException, Injectable, NotFoundException } from '@nestjs/common'
+import { Prisma } from '@prisma/client'
 import { PrismaClientKnownRequestError } from '@prisma/client/runtime'
 import * as argon from 'argon2'
 
 import { PrismaService } from '~/prisma'
 
 import { CreateUserDto, UpdateUserDto } from './dto'
+import { User } from './types'
 
 @Injectable()
 export class UserService {
   constructor(private prisma: PrismaService) {}
 
-  async create(dto: CreateUserDto) {
+  async create(dto: CreateUserDto): Promise<User> {
     const { email, password } = dto
     const hash = await argon.hash(password)
     const newUser = { email, hash }
@@ -30,35 +32,53 @@ export class UserService {
     }
   }
 
-  async findAll() {
+  async findAll(): Promise<User[]> {
     return this.prisma.user.findMany({
       select: { id: true, email: true, createdAt: true, updatedAt: true }
     })
   }
 
-  async findOne(id: string) {
-    const user = await this.prisma.user.findUnique({
-      where: { id },
-      select: { id: true, email: true, createdAt: true, updatedAt: true }
-    })
+  async findByEmail(email: string, options?: object): Promise<User> {
+    return this.findByUniqueField({ email }, options)
+  }
+
+  async findById(id: string, options?: object): Promise<User> {
+    const user = await this.findByUniqueField({ id }, options)
 
     if (!user) {
       throw new NotFoundException('User not found')
     }
+
     return user
   }
 
-  async update(id: string, dto: UpdateUserDto) {
-    const user = await this.prisma.user.update({
+  private async findByUniqueField(
+    where: Prisma.UserWhereUniqueInput,
+    options?: Prisma.UserSelect
+  ): Promise<User> {
+    const select = options || { id: true, email: true, createdAt: true, updatedAt: true }
+    const user = await this.prisma.user.findUnique({
+      where,
+      select
+    })
+
+    return user as User
+  }
+
+  async update(id: string, dto: UpdateUserDto): Promise<User> {
+    return this.prisma.user.update({
       where: { id },
       data: dto,
       select: { id: true, email: true, createdAt: true, updatedAt: true }
     })
-
-    return user
   }
 
-  async remove(id: string) {
-    return this.prisma.user.delete({ where: { id } })
+  async remove(id: string): Promise<void> {
+    try {
+      await this.prisma.user.delete({ where: { id } })
+    } catch (error) {
+      console.log(error)
+      throw new NotFoundException('No user found')
+    }
   }
 }
