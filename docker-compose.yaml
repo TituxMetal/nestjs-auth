@@ -2,7 +2,7 @@ version: '3.8'
 services:
   dev-db:
     container_name: nestjs-auth-database
-    image: postgres:14.4-alpine
+    image: postgres:14.5-alpine
     ports:
       - 5432:5432
     volumes:
