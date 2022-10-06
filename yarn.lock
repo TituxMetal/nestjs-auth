@@ -2871,11 +2871,6 @@ function.prototype.name@^1.1.5:
     es-abstract "^1.19.0"
     functions-have-names "^1.2.2"
 
-functional-red-black-tree@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
-  integrity sha512-dsKNQNdj6xA3T+QlADDA7mOSlX0qiMINjn0cgr+eGHGsbSHzTabcIogz2+p/iqP1Xs6EP/sS2SbqH+brGTbq0g==
-
 functions-have-names@^1.2.2:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/functions-have-names/-/functions-have-names-1.2.3.tgz#0404fe4ee2ba2f607f0e0ec3c80bae994133b834"
@@ -4488,20 +4483,15 @@ p-try@^2.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
-pactum-matchers@1.1.3:
+pactum-matchers@1.1.3, pactum-matchers@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/pactum-matchers/-/pactum-matchers-1.1.3.tgz#febfee838da20ef9ac34ade4f4a1198ba8bd7c63"
   integrity sha512-JRFUfWDxnA3e99M3tU+HUxkwiXIO1VlwSYzdJTUrxiOBOF8jUrCkeaHuTsfzQQFMkFAd0BrTqPhfb14hCgVX7w==
 
-pactum-matchers@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/pactum-matchers/-/pactum-matchers-1.1.2.tgz#222a52764969d973ed896b4c38c6f5c650c4d5b9"
-  integrity sha512-bLfzN/5++cV5MFesdLJ5rEwUFfywxZHcNjcgVAwrAzOn/8PkM/Tzg4QHWIlk5ngG+YYmqihqWLqPzRDUZCylmA==
-
-pactum@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/pactum/-/pactum-3.2.0.tgz#a5fe2e4abfc50d94339e5d5448449f26c051adea"
-  integrity sha512-MjXLTA4gGKg9JAVkF0kBRAZp6qNI4mwOfpRCr2kkR65CAvqV0nmr/fi9uLQ/3WWj9YMF2EHo0/9841C6L7X90w==
+pactum@3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/pactum/-/pactum-3.2.2.tgz#391e2d1cd55a2c0d9f8d4df61e96d96b7197d4bf"
+  integrity sha512-ZDOTi8cRHwkMLcFUFpUGa+4oe1Z8RLzsOGt4mJHnV8nGEINP/YFamEixtujQC4wV1yKfLIVlFQ+UKmc0liRSKA==
   dependencies:
     "@exodus/schemasafe" "^1.0.0-rc.7"
     deep-override "^1.0.2"
@@ -4510,7 +4500,7 @@ pactum@3.2.0:
     klona "^2.0.5"
     lightcookie "^1.0.25"
     openapi-fuzzer-core "^1.0.6"
-    pactum-matchers "^1.1.2"
+    pactum-matchers "^1.1.3"
     parse-graphql "^1.0.0"
     phin "^3.6.0"
     polka "^0.5.2"
