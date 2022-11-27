@@ -1822,10 +1822,10 @@ caniuse-lite@^1.0.30001366:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001367.tgz#2b97fe472e8fa29c78c5970615d7cd2ee414108a"
   integrity sha512-XDgbeOHfifWV3GEES2B8rtsrADx4Jf+juKX2SICJcaUhjYBO3bR96kvEIHa15VU6ohtOhBZuPGGYGbXMRn0NCw==
 
-centra@^2.4.2:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/centra/-/centra-2.5.0.tgz#854c30f9a3ff50da49fa69a8cb441aa25aa1e8e8"
-  integrity sha512-CnSF1HD8vOOgNbE4P2fZEhdhfAohvpcF3DSdSvEcSHDAZvr+Xfw73isT8SXJJc3VMBqSwjXhr29/ikHUgFcypg==
+centra@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/centra/-/centra-2.6.0.tgz#79117998ee6908642258db263871381aa5d1204a"
+  integrity sha512-dgh+YleemrT8u85QL11Z6tYhegAs3MMxsaWAq/oXeAmYJ7VxL3SI9TZtnfaEvNDMAPolj25FXIb3S+HCI4wQaQ==
 
 chalk@3.0.0:
   version "3.0.0"
@@ -4532,10 +4532,10 @@ pactum-matchers@1.1.3, pactum-matchers@^1.1.3:
   resolved "https://registry.yarnpkg.com/pactum-matchers/-/pactum-matchers-1.1.3.tgz#febfee838da20ef9ac34ade4f4a1198ba8bd7c63"
   integrity sha512-JRFUfWDxnA3e99M3tU+HUxkwiXIO1VlwSYzdJTUrxiOBOF8jUrCkeaHuTsfzQQFMkFAd0BrTqPhfb14hCgVX7w==
 
-pactum@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/pactum/-/pactum-3.3.0.tgz#b083315684a4f172fc98dabbb8e7031556a0dd64"
-  integrity sha512-bMfXGS5dI8CJNWyzKm1PS+21lR94QpPEZevgRu0QUWDm1FJjAdXyVM4HkWZUnEX8x0Dg6Rkgs/1skIOYh8xXaQ==
+pactum@3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/pactum/-/pactum-3.3.1.tgz#3c4adf538d8ea98bf679c96ae8a1091658e12960"
+  integrity sha512-hQ4kZ5MUSMI5pamr4/n9qyKm6JAyYeHHK5lC5WGmnuVj8iSZDgaF0YGON3TZiC4pPeRmkNy2/l634a1sUCx0Ww==
   dependencies:
     "@exodus/schemasafe" "^1.0.0-rc.9"
     deep-override "^1.0.2"
@@ -4546,7 +4546,7 @@ pactum@3.3.0:
     openapi-fuzzer-core "^1.0.6"
     pactum-matchers "^1.1.3"
     parse-graphql "^1.0.0"
-    phin "^3.6.1"
+    phin "^3.7.0"
     polka "^0.5.2"
 
 parent-module@^1.0.0:
@@ -4643,12 +4643,12 @@ pause@0.0.1:
   resolved "https://registry.yarnpkg.com/pause/-/pause-0.0.1.tgz#1d408b3fdb76923b9543d96fb4c9dfd535d9cb5d"
   integrity sha512-KG8UEiEVkR3wGEb4m5yZkVCzigAD+cVEJck2CzYZO37ZGJfctvVptVO192MwrtPhzONn6go8ylnOdMhKqi4nfg==
 
-phin@^3.6.1:
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/phin/-/phin-3.6.1.tgz#652f61b3dbb0957bc0413a15ef55dfa4e39c303c"
-  integrity sha512-ubcFKk2jRr2WUJEh+QpMkCgOQansJDuIShKbsjpejeyI/aOMLrAf0TaisbMjKwTq9CsypFFJqUaN9ZSRmBJLPw==
+phin@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/phin/-/phin-3.7.0.tgz#eeeff7660408515d8cf0c6252901012d4ab7153b"
+  integrity sha512-DqnVNrpYhKGBZppNKprD+UJylMeEKOZxHgPB+ZP6mGzf3uA2uox4Ep9tUm+rUc8WLIdHT3HcAE4X8fhwQA9JKg==
   dependencies:
-    centra "^2.4.2"
+    centra "^2.6.0"
 
 picocolors@^1.0.0:
   version "1.0.0"
