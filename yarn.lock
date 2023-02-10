@@ -780,10 +780,10 @@
     iterare "1.2.1"
     tslib "2.5.0"
 
-"@nestjs/config@2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@nestjs/config/-/config-2.3.0.tgz#b54e60ad90a894b67a87b766cdbbb6d60f4d18bb"
-  integrity sha512-VSAqoIagIrc0A3apaqC2O3a8VtQ+asw8xILmxvjK/eHW9m1rmhJ5NqkGf7m+uSv3Yxini4bzyb74Mk62+tB/cA==
+"@nestjs/config@2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@nestjs/config/-/config-2.3.1.tgz#6ac151f818db4ccf987c7ff8ef5b2c1f4eeec913"
+  integrity sha512-Ckzel0NZ9CWhNsLfE1hxfDuxJuEbhQvGxSlmZ1/X8awjRmAA/g3kT6M1+MO1SHj1wMtPyUfd9WpwkiqFbiwQgA==
   dependencies:
     dotenv "16.0.3"
     dotenv-expand "10.0.0"
@@ -802,12 +802,12 @@
     path-to-regexp "3.2.0"
     tslib "2.5.0"
 
-"@nestjs/jwt@10.0.1":
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/@nestjs/jwt/-/jwt-10.0.1.tgz#9c268a2923f6f2237c69c1e6556290acdb049145"
-  integrity sha512-LwXBKVYHnFeX6GH/Wt0WDjsWCmNDC6tEdLlwNMAvJgYp+TkiCpEmQLkgRpifdUE29mvYSbjSnVs2kW2ob935NA==
+"@nestjs/jwt@10.0.2":
+  version "10.0.2"
+  resolved "https://registry.yarnpkg.com/@nestjs/jwt/-/jwt-10.0.2.tgz#bc049fe1622299e456a849999ebf30cb56ab4dd1"
+  integrity sha512-MLxjCSbO7C9fN2hst5kpIhnJAgglJmrKppXAXqElB8A9ip3ZuCowMDjjmNWWJyfOzE98NV0E0iEQGE2StMUC+Q==
   dependencies:
-    "@types/jsonwebtoken" "8.5.9"
+    "@types/jsonwebtoken" "9.0.1"
     jsonwebtoken "9.0.0"
 
 "@nestjs/passport@9.0.3":
@@ -1124,10 +1124,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/jsonwebtoken@8.5.9":
-  version "8.5.9"
-  resolved "https://registry.yarnpkg.com/@types/jsonwebtoken/-/jsonwebtoken-8.5.9.tgz#2c064ecb0b3128d837d2764aa0b117b0ff6e4586"
-  integrity sha512-272FMnFGzAVMGtu9tkr29hRL6bZj4Zs1KZNeHLnKqAvp06tAIcarTMwOh8/8bz4FmKRcMxZhZNeUAQsNLoiPhg==
+"@types/jsonwebtoken@9.0.1":
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/@types/jsonwebtoken/-/jsonwebtoken-9.0.1.tgz#29b1369c4774200d6d6f63135bf3d1ba3ef997a4"
+  integrity sha512-c5ltxazpWabia/4UzhIoaDcIza4KViOQhdbjRlfcIGVnsE3c3brkz9Z+F/EeJIECOQP7W7US2hNE930cWWkPiw==
   dependencies:
     "@types/node" "*"
 
