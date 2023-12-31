@@ -4782,7 +4782,12 @@ p-try@^2.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
-pactum-matchers@1.1.5, pactum-matchers@^1.1.5:
+pactum-matchers@1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/pactum-matchers/-/pactum-matchers-1.1.6.tgz#0109e4ff6eba1a9acec83b2d2e1d34e02e7b079e"
+  integrity sha512-55io32NeOKbLpHKKPzYDOr+N2dseTzMbj1Gj1y+zvOkKK6NDf5BT5pxglfqLN/ra3ig5zvbrKFUqZIWjAWboog==
+
+pactum-matchers@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/pactum-matchers/-/pactum-matchers-1.1.5.tgz#a4056b3b4886add8a0a612a21023c7fb33904b58"
   integrity sha512-Bc9VVmCYeTFLRw+Du/i8MJl8jA0iBP1pbhYg45+shrKkZJbhSTsrL8ZyAKLuGeFnO0e1HG1c7u6O9Cua30a9cg==
