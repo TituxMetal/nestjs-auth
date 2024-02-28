@@ -4758,10 +4758,10 @@ pactum-matchers@^1.1.6:
   resolved "https://registry.yarnpkg.com/pactum-matchers/-/pactum-matchers-1.1.6.tgz#0109e4ff6eba1a9acec83b2d2e1d34e02e7b079e"
   integrity sha512-55io32NeOKbLpHKKPzYDOr+N2dseTzMbj1Gj1y+zvOkKK6NDf5BT5pxglfqLN/ra3ig5zvbrKFUqZIWjAWboog==
 
-pactum@3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/pactum/-/pactum-3.6.0.tgz#a7c40178a181591d0ce979845f223e0e0d3b16a4"
-  integrity sha512-pR3OzFXi7K3oNADMoEiC8Err51aCJS3FTS0MXHqqr3YDlSCb/NcdJjcoTGh443W0WilvnHFL4OsaGtO0sWv76A==
+pactum@3.6.1:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/pactum/-/pactum-3.6.1.tgz#ad40984746dd28021154836eb73846e442a942b3"
+  integrity sha512-/DvfHyIt7+K1FQwKzPzmikx7/SXZ+GZxPqR/FVkqkC4SSvtsCwTlRxxfxe+PWfj887wnYF9D91lIRI7Ws8qxYA==
   dependencies:
     "@exodus/schemasafe" "^1.2.3"
     deep-override "^1.0.2"
